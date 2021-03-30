@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build -t test-ansible .
+docker run --rm -it -v SSH -v VOL test-ansible ansible --version
