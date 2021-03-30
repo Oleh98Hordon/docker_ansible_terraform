@@ -53,8 +53,6 @@ RUN set -x && \
 
 
 ENV ANSIBLE_ROLES_PATH /ansible/playbooks/roles
-ENV PYTHONPATH /ansible/lib
-ENV PATH /ansible/bin:$PATH
 ENV VOL ~/test_task:/ansible/playbooks
 ENV SSH ~/.ssh_test:/root/.ssh:ro
 
